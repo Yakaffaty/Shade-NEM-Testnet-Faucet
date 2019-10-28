@@ -1,0 +1,22 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "NPM Faucet",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shadeslayer4322",
+  "license": "ISC",
+  "dependencies": {
+    "alert-node": "^2.0.1",
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "message-box": "^0.2.2",
+    "mongoose": "^5.7.4",
+    "nem-sdk": "^1.6.7",
+    "nodemon": "^1.19.3",
+    "sweetalert2": "^8.18.3"
+  }
+}

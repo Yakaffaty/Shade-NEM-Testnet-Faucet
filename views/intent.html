@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+   
+   <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="/assets/jqueryUtils.js"></script>
+    <script type="text/javascript">
+        function validation(){
+            swal.fire('Oops...', 'Something went wrong!', 'error')
+
+
+        }
+    </script>
+  </head>
+  <img class="imgA1" src="/assets/logo.png" class="center">
+
+  <body>
+        <button onclick="validation();"></button>
+
+        <div id=todo-table>
+                <form>
+                    <input type="text" name="address" placeholder="Ingrese la direccion de la wallet", required />
+                    <input type="text" name="message" placeholder="Escriba el mensaje que desea enviar.", required/>
+                    <input type="text" name="quantity" placeholder="¿Cuantas XEM desea?", required/>
+                    <button type="submit" onclick="validation();">Send XEM</button>}
+                </form>
+                <ul>
+                   <% for(var i = 0; i < transactions.length; i++){%>
+                        <li>Se ha enviado <%= transactions[i].xemSent %> XEM al address <%= transactions[i].address %> con el siguiente mensaje "<%= transactions[i].message %>" </li>
+                   <% } %>
+                </ul>
+            </div>
+   
+
+
+  </body>
+ </html>
