@@ -14,7 +14,7 @@
     "ejs": "^2.7.1",
     "express": "^4.17.1",
     "message-box": "^0.2.2",
-    "mongoose": "^5.7.4",
+    "mongoose": "^5.7.5",
     "nem-sdk": "^1.6.7",
     "nodemon": "^1.19.3",
     "sweetalert2": "^8.18.3"
