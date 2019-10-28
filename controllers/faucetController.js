@@ -5,7 +5,7 @@ var nem = require('../transaction')
 
 
 //Connection to DB 
-mongoose.connect('mongodb+srv://faucetAdmin:faucetAdmin1@nemtrack-k57iq.mongodb.net/test?retryWrites=true&w=majority')
+mongoose.connect($ENTER MONGO DB COLLECTION LINK$)
 // Create a schema (blueprint)
 
 var transactionSchema = new mongoose.Schema({
